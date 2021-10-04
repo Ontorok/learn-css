@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Learn with Sumit - Blue Velvet",
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter":"esbenp.prettier-vscode"
+    },
+}
