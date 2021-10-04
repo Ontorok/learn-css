@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      ::-webkit-scrollbar {
+        width: 0;
+      }
+
+      /* style the header */
+      .header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* style the top nav bar */
+      .top-nav {
+        overflow: hidden;
+        background-color: #333;
+        position: sticky;
+        top: 0;
+      }
+
+      /* style the top nav links */
+      .top-nav a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* change link color on hover */
+      .top-nav a:hover {
+        background-color: #fff;
+        color: #000;
+        transition: 0.5s ease;
+      }
+
+      .col {
+        float: left;
+        padding: 10px;
+      }
+
+      .col p {
+        text-align: justify;
+      }
+
+      .col.sidebar {
+        width: 25%;
+      }
+
+      .col.content {
+        width: 50%;
+      }
+
+      .col.article {
+        width: 25%;
+      }
+
+      /* Create three equal columns that floats next to each other */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .footer {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+
+      @media screen and (max-width: 800px) {
+        .col.sidebar,
+        .col.col.content,
+        .col.article {
+          width: 100%;
+        }
+      }
+    </style>
+
+    <title>Learn CSS with W3School</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Header</h1>
+    </div>
+
+    <div class="top-nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="row">
+      <div class="col sidebar">
+        <h2>Sidebar</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit
+          qui accusantium omnis quae harum repudiandae, dolores quo error itaque
+          eveniet impedit! Incidunt unde eligendi itaque nam corrupti porro
+        </p>
+      </div>
+
+      <div class="col content">
+        <h2>Content</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias
+          ea saepe sapiente necessitatibus earum, error aliquid inventore odio.
+          Exercitationem sed ex tenetur praesentium, doloremque iusto ducimus,
+          dolores minus voluptatem fugiat incidunt, sequi vel beatae commodi
+          error deserunt quod ut quis magnam debitis? Magnam assumenda ut quos
+          nemo, atque vel molestiae cumque excepturi consectetur cupiditate
+          eaque accusamus, eligendi tenetur expedita quis vitae asperiores.
+          Doloribus, voluptatem perspiciatis maiores beatae dolore blanditiis at
+          quisquam eveniet distinctio odit obcaecati eum eligendi minus
+          voluptatum iure necessitatibus, quos similique aliquid dolorem!
+          Similique aliquid dolor eos fuga soluta, suscipit adipisci rerum
+          repudiandae, modi recusandae velit, mollitia sed doloribus laborum
+          pariatur perferendis consequuntur quos optio? Consequatur impedit
+          labore unde vitae neque maxime adipisci officiis, incidunt dolorum
+          voluptate fuga nam ad nisi deleniti quibusdam tempora itaque accusamus
+          ea nobis possimus assumenda eum aliquam. Itaque tempore vero, corrupti
+          dolorum deserunt deleniti sed cupiditate totam autem, velit sequi
+          laudantium ab minima aliquam explicabo, esse sit quae beatae. Autem
+          temporibus animi esse. Maiores, totam. Repellat obcaecati ab dolorem
+          pariatur dolorum, quia consequuntur itaque sequi est asperiores
+          aspernatur molestiae tempora. Vitae soluta dolorem quam neque
+          doloribus sunt inventore minima molestiae velit facere, eaque natus
+          cumque, quo dolor saepe reprehenderit nisi ducimus. Quaerat similique
+          dolore, consequatur possimus illum deleniti. Illum, officia ipsum
+          voluptates est dolores amet consequuntur cum, error ipsam earum
+          eveniet assumenda, harum ducimus expedita! Nihil quisquam corporis ab
+          consectetur! Non pariatur eveniet quam laudantium mollitia facilis,
+          repudiandae illum deserunt impedit a. Quidem, et aliquid, ullam
+          doloribus quis, similique error perspiciatis tempore iste soluta optio
+          voluptatibus! Natus fugiat officiis quam suscipit cum pariatur
+          blanditiis exercitationem sed quae repellat inventore nulla enim
+          dolore, aperiam aut, harum quod similique id sequi placeat sapiente
+          quia ipsum! Dicta expedita quia neque enim odit animi dolor nisi optio
+          libero in laboriosam excepturi alias ut, dignissimos vero corporis
+          debitis minus dolores ab mollitia nulla ullam rerum voluptatibus.
+          Aperiam neque odit esse eos aut quisquam in. Tenetur adipisci
+          laudantium magni unde culpa quo, excepturi inventore. Perspiciatis,
+          modi alias sunt itaque, reiciendis impedit atque velit at quibusdam id
+          maxime et voluptatum iure neque possimus inventore nam, quod ipsum
+          illo voluptate! Asperiores nulla sed minus, necessitatibus dolorum
+          earum. Molestiae numquam nobis hic impedit alias quidem quibusdam unde
+          eaque accusantium expedita est maxime officiis, obcaecati rem
+          blanditiis? Cumque rem saepe hic minima nostrum consectetur quia,
+          debitis voluptates ducimus ab est inventore sit, autem quis sequi
+          iusto, eum explicabo iure magni assumenda voluptatum esse deserunt
+          porro recusandae? Consectetur facilis quis eum pariatur et nulla
+          impedit, omnis tenetur culpa quos, dolores eligendi veniam doloremque
+          facere excepturi repellendus accusantium, odit suscipit rem soluta
+          dolore beatae laboriosam! Iure sequi obcaecati molestias modi!
+          Voluptatibus possimus ut culpa cum debitis tempora maxime, quaerat eum
+          libero. Quos doloribus asperiores beatae harum autem voluptatum
+          eligendi est. Magni ipsa ducimus nam esse id repellendus accusantium
+          suscipit ipsum, iste, assumenda doloremque tempore facere ea
+          architecto explicabo nostrum quaerat totam voluptatibus laboriosam
+          exercitationem quod. Nemo reiciendis hic consectetur optio maiores
+          distinctio cupiditate atque a fuga, expedita, corrupti eaque. Facere
+          consequuntur tenetur nobis odit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit
+          qui accusantium omnis quae harum repudiandae, dolores quo error itaque
+          eveniet impedit! Incidunt unde eligendi itaque nam corrupti porro
+          nisi, natus adipisci eos tenetur deleniti facere odio quisquam in ab
+          debitis ipsam voluptate exercitationem id! Perferendis eos repellat
+          tempore. Rerum veniam quae facilis cum ex earum alias inventore
+          praesentium sapiente amet. Neque aspernatur rem molestiae atque
+          voluptatem. Laborum blanditiis earum soluta ad, officiis in id nihil
+          deserunt odio dolores totam modi illo praesentium quas culpa ea? Aut
+          natus laboriosam explicabo in? Impedit facere ratione aut totam
+          obcaecati, eos ipsam iusto?
+        </p>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          repellat hic nemo debitis, quod dolorem nihil beatae repudiandae ad.
+          Facilis iure odit earum blanditiis quis. Dolorum dolore distinctio,
+          laudantium nobis aliquid sed quas quos nihil optio voluptatem maxime
+          accusamus rerum unde, cum ut sit, mollitia cupiditate. Voluptatibus
+          consequatur animi non.
+        </p>
+      </div>
+
+      <div class="col article">
+        <h2>Article</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit
+          qui accusantium omnis quae harum repudiandae, dolores quo error itaque
+          eveniet impedit! Incidunt unde eligendi itaque nam corrupti porro
+          nisi, natus adipisci eos tenetur deleniti facere odio quisquam in ab
+          debitis ipsam voluptate exercitationem id! Perferendis eos repellat
+          tempore. Rerum veniam quae facilis cum ex earum alias inventore
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </body>
+</html>
