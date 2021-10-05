@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style></style>
+
+    <title>Learn CSS with W3School</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background-color: #f1f1f1;
+        padding: 10px;
+      }
+
+      .header {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .top-nav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .top-nav a {
+        float: left;
+        display: block;
+        padding: 14px 16px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .top-nav a:hover {
+        background-color: #fff;
+        color: #000;
+        transition: 0.5s ease;
+      }
+
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .col-75 {
+        float: left;
+        width: 75%;
+      }
+      .col-25 {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+
+      .card {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .faceimage {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+        margin: 5px;
+      }
+
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 1280px) {
+        .col-75,
+        .col-25 {
+          width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .top-nav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>My Website</h1>
+      <p>Demo descrition for my website</p>
+    </div>
+
+    <div class="top-nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#" style="float: right">Faq</a>
+    </div>
+
+    <div class="row">
+      <div class="col-75">
+        <div class="card">
+          <h2>Card Heading</h2>
+          <h5>Card Description, 5<sup>th</sup> October,2021</h5>
+          <div class="faceimage" style="height: 200px">Image</div>
+          <p>Some Text....</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
+            nihil! Esse nesciunt incidunt harum, architecto ab unde commodi nisi
+            nobis expedita quos molestias ullam voluptates facilis minima?
+            Tempora sint nulla eius ut minima fugiat sequi amet, repellendus
+            similique eligendi vitae doloremque molestias totam accusamus
+            maxime, hic, omnis alias atque. Debitis?
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Card Heading</h2>
+          <h5>Card Description, 25<sup>th</sup> September,2021</h5>
+          <div class="faceimage" style="height: 200px">Image</div>
+          <p>Some Text....</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
+            nihil! Esse nesciunt incidunt harum, architecto ab unde commodi nisi
+            nobis expedita quos molestias ullam voluptates facilis minima?
+            Tempora sint nulla eius ut minima fugiat sequi amet, repellendus
+            similique eligendi vitae doloremque molestias totam accusamus
+            maxime, hic, omnis alias atque. Debitis?
+          </p>
+        </div>
+      </div>
+      <div class="col-25">
+        <div class="card">
+          <h2>About me</h2>
+          <div class="faceimage" style="height: 100px">Image</div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+            animi vitae ipsam architecto voluptatum delectus, cum numquam sit
+            odio dolor.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Popular post</h2>
+          <div class="faceimage" style="height: 100px">Image</div>
+          <div class="faceimage" style="height: 100px">Image</div>
+          <div class="faceimage" style="height: 100px">Image</div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+            animi vitae ipsam architecto voluptatum delectus, cum numquam sit
+            odio dolor.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Follow me</h2>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+            animi vitae ipsam architecto voluptatum delectus, cum numquam sit
+            odio dolor.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+  </body>
+</html>
