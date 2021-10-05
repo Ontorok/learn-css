@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .clearfix {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .rc {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin: 10px;
+        padding: 10px;
+      }
+      .rc1 {
+        background-color: lightseagreen;
+        border-radius: 20px;
+      }
+      .rc2 {
+        border: 5px solid lightsteelblue;
+        border-radius: 20px;
+      }
+      .rc3 {
+        background-color: lightsalmon;
+        border-radius: 20px;
+      }
+
+      .rc4 {
+        background-image: url("../assets/background-image/one.jpg");
+        border-radius: 20px;
+      }
+
+      .rc5 {
+        background-color: mediumpurple;
+        border-radius: 0 15px;
+      }
+
+      .rc6 {
+        background-color: gray;
+        border-radius: 50px / 15px;
+      }
+      .rc7 {
+        background-color: gray;
+        border-radius: 15px / 50px;
+      }
+
+      .rc8 {
+        background-color: gray;
+        border-radius: 50%;
+      }
+    </style>
+
+    <title>Learn CSS with W3School</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div class="clearfix">
+      <div class="rc rc1">Rounded Corners</div>
+      <div class="rc rc2">Rounded Corners</div>
+      <div class="rc rc3">Rounded Corners</div>
+      <div class="rc rc4">Rounded Corners</div>
+    </div>
+
+    <hr />
+
+    <div class="clearfix">
+      <h2>Rouned each corner separately</h2>
+      <div class="rc rc5">Rouned each corner separately</div>
+    </div>
+
+    <hr />
+
+    <div class="clearfix">
+      <h2>elliptical corners</h2>
+      <div class="rc rc6">Rouned each corner separately</div>
+      <div class="rc rc7">Rouned each corner separately</div>
+      <div class="rc rc8">Rouned each corner separately</div>
+    </div>
+  </body>
+</html>
