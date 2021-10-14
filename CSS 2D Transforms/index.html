@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 2D Transforms</title>
+    <style>
+      div.translate {
+        width: 300px;
+        height: 100px;
+        border: 1px solid black;
+        padding: 5px;
+        transform: translate(10px, 5px);
+      }
+
+      div.normal {
+        width: 300px;
+        height: 100px;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+
+      div#myDiv {
+        width: 300px;
+        height: 100px;
+        background-color: yellow;
+        border: 1px solid black;
+        transform: rotate(20deg);
+      }
+
+      div#scale {
+        width: 300px;
+        height: 100px;
+        background-color: yellow;
+        border: 1px solid black;
+        transform: scale(2, 3);
+      }
+
+      div#test {
+        width: 600px;
+        height: 300px;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The translate() Method</h1>
+    <p>The translate() method moves an element from its current position:</p>
+
+    <div class="translate">
+      This div element is moved 50 pixels to the right, and 100 pixels down from
+      its current position.
+    </div>
+
+    <hr />
+
+    <div class="normal">This a normal div element.</div>
+
+    <div id="myDiv">This div element is rotated clockwise 20 degrees.</div>
+
+    <hr />
+
+    <h1>The scale() Method</h1>
+
+    <p>The scale() method increases or decreases the size of an element.</p>
+
+    <div id="scale">
+      This div element is two times of its original width, and three times of
+      its original height.
+    </div>
+    <div id="test">
+      This div element is two times of its original width, and three times of
+      its original height.
+    </div>
+  </body>
+</html>
