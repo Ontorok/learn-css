@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Shadow Effects</title>
+    <style>
+      span {
+        color: yellow;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+
+      #shad {
+        width: 300px;
+        height: 100px;
+        padding: 15px;
+        background-color: rgb(173, 173, 133);
+        box-shadow: 5px 5px 5px gray;
+      }
+
+      .card {
+        width: 250px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      .header {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        font-size: 40px;
+      }
+      .content {
+        padding: 10px;
+      }
+
+      #ex1 h1 {
+        text-shadow: 2px 2px 5px green, 0 0 10px red;
+      }
+
+      #ex4 div {
+        box-shadow: 10px 10px grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Css Text Shadow</div>
+    <h1>My Name is <span>Nasir Ahmed</span></h1>
+
+    <hr />
+
+    <div id="shad">Css Box Shadow</div>
+
+    <hr />
+    <h3>Making card</h3>
+    <div class="card">
+      <div class="header">
+        <h1>1</h1>
+      </div>
+      <div class="content">
+        <p>January 1, 2021</p>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="card">
+      <img
+        src="../assets/background-image/eight.jpg"
+        style="width: 100%"
+        alt=""
+        srcset=""
+      />
+      <div class="content">
+        <p>January 1, 2021</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="ex1">
+      <h3>Exercise 1</h3>
+      <h1>This is a Heading</h1>
+      <p>This is a paragraph.</p>
+      <p>This is another paragraph.</p>
+    </div>
+
+    <div id="ex4">
+      <h3>Exercise 4</h3>
+      <div style="background-color: lightblue; width: 350px; padding: 15px">
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+      </div>
+    </div>
+  </body>
+</html>
