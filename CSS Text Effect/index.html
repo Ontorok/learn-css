@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Text Effect</title>
+    <style>
+      p.test1 {
+        width: 150px;
+        border: 1px solid red;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: clip;
+      }
+
+      p.test2 {
+        width: 150px;
+        border: 1px solid red;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      p.test1,
+      p.test2:hover {
+        overflow: visible;
+      }
+      p.test3 {
+        width: 176px;
+        border: 1px solid #000000;
+        word-wrap: break-word;
+        padding: 5px;
+        text-align: justify;
+      }
+      p.ex1 {
+        white-space: nowrap;
+        width: 200px;
+        border: 1px solid #000000;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      p.ex2 {
+        width: 150px;
+        border: 1px solid #000000;
+        word-wrap: break-word;
+      }
+
+      p.ex3 {
+        width: 150px;
+        border: 1px solid #000000;
+        word-break: break-all;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The text-overflow Property</h1>
+    <p>
+      The following two paragraphs contains a long text that will not fit in the
+      box.
+    </p>
+
+    <h2>text-overflow: clip:</h2>
+    <p class="test1">This is some long text that will not fit in the box</p>
+
+    <h2>text-overflow: ellipsis:</h2>
+    <p class="test2">This is some long text that will not fit in the box</p>
+
+    <h1>The word-wrap Property</h1>
+
+    <p class="test3">
+      This paragraph contains a very long word:
+      thisisaveryveryveryveryveryverylongword. The long word will break and wrap
+      to the next line.
+    </p>
+
+    <h1>Exercise</h1>
+    <p class="ex1">
+      This paragraph contains a very long word:
+      supercalifragilisticexpialidocious.
+    </p>
+
+    <p class="ex2">
+      This paragraph contains a very long word:
+      supercalifragilisticexpialidocious.
+    </p>
+
+    <p class="ex3">
+      This paragraph contains a very long word:
+      super-cali-fragi-listic-expialidocious.
+    </p>
+  </body>
+</html>
